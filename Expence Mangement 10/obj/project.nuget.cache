@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "urE97nelAPERu4qSg7GP+ePfkDwjGDS9Pa+zuqG2Cm9EHWF3AzPhbNGDEgRsNK+OgmhonL48odXMx4lP+Tf1YQ==",
+  "dgSpecHash": "Rf+iSQEmvcLLyzq7zoGg6lyaVEIpPf4z5Tya5zYxl9RPiLz0RbbINbtF9dXz/uytUUlPHBcBO497uQYYfnNaCQ==",
   "success": true,
   "projectFilePath": "C:\\Expence Mangement 10\\Expence Mangement 10\\Expence Mangement 10.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,7 @@
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.2.0\\microsoft.identitymodel.abstractions.7.2.0.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.1.2\\microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.2.0\\microsoft.identitymodel.jsonwebtokens.7.2.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.identitymodel.logging\\7.2.0\\microsoft.identitymodel.logging.7.2.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
@@ -53,7 +53,7 @@
     "C:\\Users\\PC\\.nuget\\packages\\system.composition.hosting\\6.0.0\\system.composition.hosting.6.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.composition.runtime\\6.0.0\\system.composition.runtime.6.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.composition.typedparts\\6.0.0\\system.composition.typedparts.6.0.0.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.1.2\\system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.2.0\\system.identitymodel.tokens.jwt.7.2.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.reflection.metadata\\6.0.1\\system.reflection.metadata.6.0.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

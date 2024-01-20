@@ -29,7 +29,58 @@ namespace Expence_Management_10.Services
             _context = context;
         }
 
+
+
+
         // Implementation of CRUD methods for categories...
+
+
+
+
+        private readonly ExpenseDbContext _dbContext;
+
+        public ExpenseCategoryService(ExpenseDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+
+        public IEnumerable<ExpenseCategory> GetExpenseCategories()
+        {
+            return _dbContext.ExpenseCategories.ToList();
+        }
+
+        public ExpenseCategory GetExpenseCategory(int categoryId)
+        {
+            return _dbContext.ExpenseCategories.Find(categoryId);
+        }
+
+        public void AddExpenseCategory(ExpenseCategory category)
+        {
+            _dbContext.ExpenseCategories.Add(category);
+            _dbContext.SaveChanges();
+        }
+
+        public void UpdateExpenseCategory(ExpenseCategory category)
+        {
+            _dbContext.ExpenseCategories.Update(category);
+            _dbContext.SaveChanges();
+        }
+
+        public void DeleteExpenseCategory(int categoryId)
+        {
+            var category = _dbContext.ExpenseCategories.Find(categoryId);
+            if (category != null)
+            {
+                _dbContext.ExpenseCategories.Remove(category);
+                _dbContext.SaveChanges();
+            }
+        }
+
+
+
+
+
+
     }
 
 }

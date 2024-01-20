@@ -5,14 +5,18 @@ using System.ComponentModel.DataAnnotations;
 namespace Expence_Mangement_10.Models{
 public class ExpenseCategory {
 
-    public int CategoryID { get; set; }
+    [Key]
+     public int CategoryID { get; set; }
 
 
     [Column(TypeName = VARCHAR(255) NOT NULL)]
+    [Required]
     public string CategoryName { get; set; }
 
-
     public string Description { get; set; }
+    
+    // Navigation property representing the relationship
+    public ICollection<Expense> Expenses { get; set; }
 
 }
 }

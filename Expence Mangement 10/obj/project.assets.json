@@ -632,10 +632,10 @@
           }
         }
       },
-      "Microsoft.IdentityModel.JsonWebTokens/7.1.2": {
+      "Microsoft.IdentityModel.JsonWebTokens/7.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "7.1.2"
+          "Microsoft.IdentityModel.Tokens": "7.2.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
@@ -1028,11 +1028,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.IdentityModel.Tokens.Jwt/7.1.2": {
+      "System.IdentityModel.Tokens.Jwt/7.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "7.1.2",
-          "Microsoft.IdentityModel.Tokens": "7.1.2"
+          "Microsoft.IdentityModel.JsonWebTokens": "7.2.0",
+          "Microsoft.IdentityModel.Tokens": "7.2.0"
         },
         "compile": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
@@ -2403,10 +2403,10 @@
         "microsoft.identitymodel.abstractions.nuspec"
       ]
     },
-    "Microsoft.IdentityModel.JsonWebTokens/7.1.2": {
-      "sha512": "cloLGeZolXbCJhJBc5OC05uhrdhdPL6MWHuVUnkkUvPDeK7HkwThBaLZ1XjBQVk9YhxXE2OvHXnKi0PLleXxDg==",
+    "Microsoft.IdentityModel.JsonWebTokens/7.2.0": {
+      "sha512": "zLFA9IBxDWw6Y1nz2PPZyQvF+ZZ4aW1pwgtwusQB39lgxOc2xVqZ8gitsuT1rwyuIbchGOWbax4fsJ8OgGRxSQ==",
       "type": "package",
-      "path": "microsoft.identitymodel.jsonwebtokens/7.1.2",
+      "path": "microsoft.identitymodel.jsonwebtokens/7.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2422,7 +2422,7 @@
         "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.xml",
         "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.xml",
-        "microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
+        "microsoft.identitymodel.jsonwebtokens.7.2.0.nupkg.sha512",
         "microsoft.identitymodel.jsonwebtokens.nuspec"
       ]
     },
@@ -2940,10 +2940,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.IdentityModel.Tokens.Jwt/7.1.2": {
-      "sha512": "Thhbe1peAmtSBFaV/ohtykXiZSOkx59Da44hvtWfIMFofDA3M3LaVyjstACf2rKGn4dEDR2cUpRAZ0Xs/zB+7Q==",
+    "System.IdentityModel.Tokens.Jwt/7.2.0": {
+      "sha512": "Z3Fmkrxkp+o51ANMO/PqASRRlEz8dH4mTWwZXMFMXZt2bUGztBiNcIDnwBCElYLYpzpmz4sIqHb6aW8QVLe6YQ==",
       "type": "package",
-      "path": "system.identitymodel.tokens.jwt/7.1.2",
+      "path": "system.identitymodel.tokens.jwt/7.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2959,7 +2959,7 @@
         "lib/net8.0/System.IdentityModel.Tokens.Jwt.xml",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
-        "system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.7.2.0.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
@@ -3222,7 +3222,8 @@
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
       "Microsoft.IdentityModel.Tokens >= 7.2.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.0",
-      "Swashbuckle.AspNetCore >= 6.4.0"
+      "Swashbuckle.AspNetCore >= 6.4.0",
+      "System.IdentityModel.Tokens.Jwt >= 7.2.0"
     ]
   },
   "packageFolders": {
@@ -3305,6 +3306,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.4.0, )"
+          },
+          "System.IdentityModel.Tokens.Jwt": {
+            "target": "Package",
+            "version": "[7.2.0, )"
           }
         },
         "imports": [

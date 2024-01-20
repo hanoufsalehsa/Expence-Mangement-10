@@ -7,6 +7,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Swashbuckle.AspNetCore.SwaggerUI;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Identity;
+using Expence_Mangement_10.Services;
 
 namespace Expence_Mangement_10
 {
@@ -19,25 +23,41 @@ namespace Expence_Mangement_10
         {
             
 
+
+
+            //services.AddHttpsRedirection(options =>
+           // {
+            //options.HttpsPort = 443; // Default HTTPS port
+           // });
+
+            services.AddScoped<ExpenseCategoryService>();
+            services.AddScoped<ExpenseService>();
+            services.AddScoped<UserService>();
+
+
             // Configure JWT authentication
-            var key = Encoding.ASCII.GetBytes("your_secret_key");
-            services.AddAuthentication(x =>
+            var key = Encoding.ASCII.GetBytes(Configuration["Jwt:Key"]);
+            services.AddAuthentication(options =>
             {
-                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             })
-            .AddJwtBearer(x =>
+            .AddJwtBearer(options  =>
             {
-                x.RequireHttpsMetadata = false;
-                x.SaveToken = true;
-                x.TokenValidationParameters = new TokenValidationParameters
+                options.RequireHttpsMetadata = false;
+                options.SaveToken = true;
+                options.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"])),
                     ValidateIssuer = false,
-                    ValidateAudience = false
+                    ValidateAudience = false,
+                    ValidateLifetime = true, // Enable token lifetime validation
+                    ClockSkew = TimeSpan.Zero // Set to zero to account for token expiration
                 };
             });
+
+            
 
             // Add Swagger documentation
             services.AddSwaggerGen(c =>

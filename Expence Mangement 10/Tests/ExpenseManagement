@@ -1,42 +1,76 @@
+// Assuming you have a test project in your solution
+
+// UserTests.cs
 using System;
-using System.Text;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Expence_Management_10.Controllers;
 using Expence_Management_10.Models;
 using Expence_Management_10.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+using Moq;
 using Xunit;
 
-[TestClass]
-public class ExpenseServiceTests
+public class UserTests
 {
-    [TestMethod]
-    public async Task CreateExpense_ShouldCreateExpense()
+    [Fact]
+    public async Task Register_ValidModel_ReturnsOkResult()
     {
         // Arrange
-        var dbContextOptions = new DbContextOptionsBuilder<ExpenseDbContext>()
-            .UseInMemoryDatabase("TestDatabase")
-            .Options;
+        var mockUserManager = MockUserManager();
+        var mockSignInManager = MockSignInManager();
+        var mockConfiguration = MockConfiguration();
+        var mockUserService = new Mock<UserService>(Mock.Of<ExpenseDbContext>());
+        var controller = new UserController(mockUserManager.Object, mockSignInManager.Object, mockConfiguration.Object, mockUserService.Object);
+        var registerModel = new RegisterModel { /* valid model properties */ };
 
-        using (var dbContext = new ExpenseDbContext(dbContextOptions))
-        {
-            var expenseService = new ExpenseService(dbContext);
-            var newExpense = new Expense
-            {
-                UserID = 1,
-                CategoryID = 1,
-                Date = new DateTime(2024, 01, 20),
-                Amount = 50.99m,
-                Description = "Grocery shopping",
-                ReceiptImage = Encoding.UTF8.GetBytes("base64encodedimage")
-            };
+        // Act
+        var result = await controller.Register(registerModel);
 
-            // Act
-            var createdExpense = await expenseService.CreateExpense(newExpense);
+        // Assert
+        var okResult = Assert.IsType<OkObjectResult>(result);
+        Assert.Equal("User registered successfully.", okResult.Value);
+    }
 
-            // Assert
-            Assert.IsNotNull(createdExpense);
-            Assert.AreEqual("Grocery shopping", createdExpense.Description);
-        }
+    [Fact]
+    public async Task Login_ValidModel_ReturnsToken()
+    {
+        // Arrange
+        var mockUserManager = MockUserManager();
+        var mockSignInManager = MockSignInManager();
+        var mockConfiguration = MockConfiguration();
+        var mockUserService = new Mock<UserService>(Mock.Of<ExpenseDbContext>());
+        var controller = new UserController(mockUserManager.Object, mockSignInManager.Object, mockConfiguration.Object, mockUserService.Object);
+        var loginModel = new LoginModel { /* valid model properties */ };
+
+        // Act
+        var result = await controller.Login(loginModel);
+
+        // Assert
+        var okResult = Assert.IsType<OkObjectResult>(result);
+        Assert.NotNull(okResult.Value);
+        Assert.True(okResult.Value.ToString().Contains("Token"));
+    }
+
+    private Mock<UserManager<User>> MockUserManager()
+    {
+        var store = new Mock<IUserStore<User>>();
+        return new Mock<UserManager<User>>(store.Object, null, null, null, null, null, null, null, null);
+    }
+
+    private Mock<SignInManager<User>> MockSignInManager()
+    {
+        var userManager = MockUserManager().Object;
+        return new Mock<SignInManager<User>>(userManager, Mock.Of<IHttpContextAccessor>(), Mock.Of<IUserClaimsPrincipalFactory<User>>(), null, null, null);
+    }
+
+    private Mock<IConfiguration> MockConfiguration()
+    {
+        var configuration = new Mock<IConfiguration>();
+        configuration.SetupGet(x => x["Jwt:Key"]).Returns("your_secret_key");
+        configuration.SetupGet(x => x["Jwt:Issuer"]).Returns("your_issuer");
+        configuration.SetupGet(x => x["Jwt:ExpireDays"]).Returns("1");
+        return configuration;
     }
 }
