@@ -1,0 +1,34 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Expence_Management_10.Data;
+using Expence_Management_10.Models;
+using System.Linq;
+using System;
+
+namespace Expence_Management_10.Services
+{
+    public interface IExpenseService
+    {
+        Task<List<Expense>> GetExpenses();
+        Task<Expense> GetExpenseById(int id);
+        Task<Expense> CreateExpense(Expense expense);
+        Task<Expense> UpdateExpense(int id, Expense expense);
+        Task<bool> DeleteExpense(int id);
+        Task<List<Expense>> GetExpensesByCategory(int categoryId);
+    }
+
+
+    public class ExpenseService : IExpenseService
+    {
+        private readonly ExpenseDbContext _context;
+
+        public ExpenseService(ExpenseDbContext context)
+        {
+            _context = context;
+        }
+
+        // Implementation of CRUD methods for expenses...
+    }
+    
+}

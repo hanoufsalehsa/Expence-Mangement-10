@@ -1,0 +1,28 @@
+using System.Threading.Tasks;
+using Expence_Management_10.Models;
+using Expence_Management_10.Data;
+
+
+namespace Expence_Management_10.Services
+{
+    public interface IUserService
+    {
+        Task<User> Authenticate(string username, string password);
+        Task<User> Register(User user);
+        Task Logout();
+    }
+
+
+
+    public class UserService : IUserService
+    {
+        private readonly ExpenseDbContext _context;
+
+        public UserService(ExpenseDbContext context)
+        {
+            _context = context;
+        }
+
+        // Implementation of authentication, registration, and logout methods...
+    }
+}

@@ -1,0 +1,20 @@
+namespace Expence_Mangement_10.Models{
+    using (var dbContext = new ApplicationDbContext())
+    {
+        // Create a new user
+        var newUser = new User
+        {
+            Username = "john_doe",
+            Password = "password123",
+            FirstName = "John",
+            LastName = "Doe",
+            Email = "john.doe@example.com"
+        };
+
+        // Add the user to the Users DbSet
+        dbContext.Users.Add(newUser);
+
+        // Save changes to the database
+        dbContext.SaveChanges();
+    }
+}

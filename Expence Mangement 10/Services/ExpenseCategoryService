@@ -1,0 +1,35 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Expence_Management_10.Data;
+using Expence_Management_10.Models;
+using System.Linq;
+
+
+
+
+namespace Expence_Management_10.Services
+{
+    public interface ICategoryService
+    {
+        Task<List<Category>> GetCategories();
+        Task<Category> GetCategoryById(int id);
+        Task<Category> CreateCategory(Category category);
+        Task<Category> UpdateCategory(int id, Category category);
+        Task<bool> DeleteCategory(int id);
+    }
+
+
+    public class CategoryService : ICategoryService
+    {
+        private readonly ExpenseDbContext _context;
+
+        public CategoryService(ExpenseDbContext context)
+        {
+            _context = context;
+        }
+
+        // Implementation of CRUD methods for categories...
+    }
+
+}

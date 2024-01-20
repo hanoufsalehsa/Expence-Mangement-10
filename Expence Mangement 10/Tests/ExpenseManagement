@@ -1,0 +1,42 @@
+using System;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Expence_Management_10.Models;
+using Expence_Management_10.Services;
+using Xunit;
+
+[TestClass]
+public class ExpenseServiceTests
+{
+    [TestMethod]
+    public async Task CreateExpense_ShouldCreateExpense()
+    {
+        // Arrange
+        var dbContextOptions = new DbContextOptionsBuilder<ExpenseDbContext>()
+            .UseInMemoryDatabase("TestDatabase")
+            .Options;
+
+        using (var dbContext = new ExpenseDbContext(dbContextOptions))
+        {
+            var expenseService = new ExpenseService(dbContext);
+            var newExpense = new Expense
+            {
+                UserID = 1,
+                CategoryID = 1,
+                Date = new DateTime(2024, 01, 20),
+                Amount = 50.99m,
+                Description = "Grocery shopping",
+                ReceiptImage = Encoding.UTF8.GetBytes("base64encodedimage")
+            };
+
+            // Act
+            var createdExpense = await expenseService.CreateExpense(newExpense);
+
+            // Assert
+            Assert.IsNotNull(createdExpense);
+            Assert.AreEqual("Grocery shopping", createdExpense.Description);
+        }
+    }
+}

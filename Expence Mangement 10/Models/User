@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
+namespace Expence_Mangement_10.Models{
+
+public class User {
+
+    public int UserID { get; set; }
+
+    [Column(TypeName = VARCHAR(255) NOT NULL)]
+    public string Username { get; set; }
+
+    [Column(TypeName = VARCHAR(255) NOT NULL)]
+    public string Password { get; set; }
+
+    [Column(TypeName = VARCHAR(255) NOT NULL)]
+    public string FirstName { get; set; }
+
+    [Column(TypeName = VARCHAR(255) NOT NULL)]
+    public string LastName { get; set; }
+
+    [Column(TypeName = VARCHAR(255) NOT NULL)]
+    public string Email { get; set; }
+    
+    
+}
+}

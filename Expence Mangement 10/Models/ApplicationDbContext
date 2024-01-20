@@ -1,0 +1,36 @@
+using Microsoft.EntityFrameworkCore;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
+namespace Expence_Mangement_10.Models
+{
+public class ApplicationDbContext : DbContext
+{
+
+    public ExpenseDbContext(DbContextOptions<ExpenseDbContext> options) : base(options) { }
+
+        public DbSet<User> Users { get; set; }
+        public DbSet<ExpenseCategory> ExpenseCategories { get; set; }
+        public DbSet<Expense> Expenses { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Configure relationships...
+
+            base.OnModelCreating(modelBuilder);
+
+
+    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
+
+         //optionsBuilder.UseNpgsql("DevConnection",providerOptions => { providerOptions.EnableRetryOnFailure(); });
+
+
+     }
+         
+    
+
+}
+
+    
+
+//mine
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//options.UseNpgsql(builder.Configuration.GetConnectionString("DevConnection")));

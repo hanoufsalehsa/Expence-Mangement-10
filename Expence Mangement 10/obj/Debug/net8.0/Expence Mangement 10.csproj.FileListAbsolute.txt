@@ -1,0 +1,107 @@
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\appsettings.Development.json
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\appsettings.json
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Expence Mangement 10.exe
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Expence Mangement 10.deps.json
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Expence Mangement 10.runtimeconfig.json
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Expence Mangement 10.dll
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Expence Mangement 10.pdb
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Microsoft.OpenApi.dll
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\Expence Mangement 10.csproj.AssemblyReference.cache
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\Expence Mangement 10.GeneratedMSBuildEditorConfig.editorconfig
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\Expence Mangement 10.AssemblyInfoInputs.cache
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\Expence Mangement 10.AssemblyInfo.cs
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\Expence Mangement 10.csproj.CoreCompileInputs.cache
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\Expence Mangement 10.MvcApplicationPartsAssemblyInfo.cs
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\Expence Mangement 10.MvcApplicationPartsAssemblyInfo.cache
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\staticwebassets.build.json
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\staticwebassets.development.json
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\staticwebassets\msbuild.Expence Mangement 10.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\staticwebassets\msbuild.build.Expence Mangement 10.props
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Expence Mangement 10.props
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Expence Mangement 10.props
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\scopedcss\bundle\Expence Mangement 10.styles.css
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\Expence Mangement 10.csproj.CopyComplete
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\Expence Mangement 10.dll
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\refint\Expence Mangement 10.dll
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\Expence Mangement 10.pdb
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\Expence Mangement 10.genruntimeconfig.cache
+c:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\ref\Expence Mangement 10.dll
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Npgsql.dll
+c:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Humanizer.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\System.CodeDom.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\Expence_Mangement_10.Models.MvcApplicationPartsAssemblyInfo.cs
+C:\Expence Mangement 10\Expence Mangement 10\obj\Debug\net8.0\Expence_Mangement_10.Models.MvcApplicationPartsAssemblyInfo.cache

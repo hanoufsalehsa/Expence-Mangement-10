@@ -1,0 +1,23 @@
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Expence_Management_10.Data;
+using Expence_Management_10.Models;
+
+namespace Expence_Management_10.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    [Authorize]
+    public class ExpenseController : ControllerBase
+    {
+        private readonly ExpenseDbContext _context;
+
+        public ExpenseController(ExpenseDbContext context)
+        {
+            _context = context;
+        }
+
+        // CRUD operations for expenses...
+    }
+}
